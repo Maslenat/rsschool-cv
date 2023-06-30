@@ -33,9 +33,11 @@ function squareSum( numbers ) {
 ***
 ### Educational projects
 Furniture Shop: [code](https://github.com/Maslenat/FunitureShop.git) [deploy](https://github.com/Maslenat/FunitureShop/deployments/activity_log?environment=github-pages)
+
 ***
 ### Courses
 ITGIRLSCHOOL <https://itgirlschool.com/>
+
 ***
 * ### Languages
 > * Russian-native
