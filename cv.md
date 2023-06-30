@@ -1,4 +1,3 @@
-
 ## Natalia Maslennikova
 *** 
  ### Contacts
@@ -19,3 +18,20 @@
 >* VSCode
 >* GIT
 ***
+### Code
+KATA Codewars: Complete the square sum function so that it squares each number passed into it and then sums the results together.
+```
+function squareSum( numbers ) {
+  return numbers.map( el=> el * el ).reduce(( x, y )=> x + y,0)
+}
+```
+***
+### Educational projects
+> - Furniture Shop: [code](https://github.com/Maslenat/FunitureShop.git) [deploy](https://github.com/Maslenat/FunitureShop/deployments/activity_log?environment=github-pages)
+***
+### Courses
+>  - ITGIRLSCHOOL <https://itgirlschool.com/>
+***
+### Languages
+> - Russian-native
+> - English-A1
