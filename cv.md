@@ -1,4 +1,6 @@
 ## Natalia Maslennikova
+ ![](foto.png)
+
 *** 
  ### Contacts
 >- **GitHub:** [_Maslenat_](https://github.com/Maslenat)
