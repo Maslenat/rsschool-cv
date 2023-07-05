@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+     font-size: 1.5rem;
+     min-width: 320px;
+     background-color: var(--primary);
+     line-height: 1.5;
+     font-style: Arial, sans-serif;
+    
+}
+html {
+    font-size: 10px;
+}
+img {
+    display: block;
+}
+a {
+    text-decoration: none;
+   
+}
+:root {
+   --primary: rgba(191, 207, 217, 0.3);
+   --lightgray:#4f5050;
+   --darkgray:#1c1d1d;
+   --white: white;
+   --yellow: #dba316;
+
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 10px 20px;
+    background-color: var(--white); 
+}
+.full-name {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.full-name div {
+    margin: auto 0;
+}
+.foto-decoration {
+    width: 140px;
+    height: 220px;
+    border: 2px solid var(--darkgray);
+    position: relative;
+    
+}
+.foto-decoration::after {
+    content: "";
+    width: 140px;
+    height: 90px;
+    position: absolute;
+    z-index: 2;
+    right: -2px;
+    bottom: -2px;
+    background-color: var(--yellow);
+}
+.foto {
+    position: relative;
+    left: 10px;
+    z-index: 10;
+}
+.title{
+    color: var(--darkgray);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+.subtitle {
+    color: var(--lightgray);
+    text-transform: uppercase;
+    font-weight: normal;
+    
+}
+.subtitle::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: var(--lightgray);
+}
+.list {
+    display: flex;
+    list-style-type: none;
+    gap:15px;
+    justify-content: flex-end;
+}
+.list a {
+    color: var(--darkgray);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.list a::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 10%;
+    border-radius: 25px;
+    background-color: transparent;
+    opacity: 0.2;
+}
+.list a:hover::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: var(--yellow);
+    opacity: 1;
+    transition: all 0.5s ease-out;
+
+}
