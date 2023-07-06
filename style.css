@@ -84,18 +84,18 @@ a {
     width: 100%;
     background-color: var(--lightgray);
 }
-.list {
+.list-nav {
     display: flex;
     list-style-type: none;
     gap:15px;
     justify-content: flex-end;
 }
-.list a {
+.list-nav a {
     color: var(--darkgray);
     font-size: 2rem;
     font-weight: 500;
 }
-.list a::after{
+.list-nav a::after{
     content: "";
     display: block;
     height: 5px;
@@ -104,7 +104,7 @@ a {
     background-color: transparent;
     opacity: 0.2;
 }
-.list a:hover::after{
+.list-nav a:hover::after{
     content: "";
     display: block;
     height: 5px;
@@ -114,4 +114,26 @@ a {
     opacity: 1;
     transition: all 0.5s ease-out;
 
+}
+.list-contact dt {
+    color: var(--white); 
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding: 2px 20px;
+    background-color: var(--darkgray);
+    display: inline-block;
+    margin-bottom: 10px;
+    text-transform: uppercase ;
+}
+
+.list-contact dd, .list-contact a {
+    color: var(--darkgray);
+    font-size: 1.5rem;
+    font-weight: 500;
+   
+
+}
+.list-contact dd a {
+    margin: 0 10px;
 }
