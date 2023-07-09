@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    
+
 }
 :root {
     --primary: rgba(191, 207, 217, 0.3);
@@ -8,7 +8,7 @@
     --darkgray:#1c1d1d;
     --white: white;
     --yellow: #dba316;
- 
+
  }
 
 body {
@@ -17,7 +17,7 @@ body {
      background-color: var(--primary);
      line-height: 1.5;
      font-style: Arial, sans-serif;
-    
+
 }
 
 html {
@@ -32,7 +32,6 @@ img {
 a {
     text-decoration: none;
     color: var(--darkgray);
-   
 }
 
 li {
@@ -43,14 +42,14 @@ li {
     margin: 20px auto;
     max-width: 900px;
     padding: 20px 30px;
-    background-color: var(--white); 
+    background-color: var(--white);
     box-shadow: 0 0 20px #4f5050;
 }
 
 .full-name {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .full-name div {
@@ -136,7 +135,7 @@ a:hover::after {
 }
 
 .horizont-title {
-    color: var(--white); 
+    color: var(--white);
     font-size: 2rem;
     font-weight: 500;
     letter-spacing: 3px;
@@ -148,7 +147,7 @@ a:hover::after {
 }
 
 .vertical-title {
-    color: var(--white); 
+    color: var(--white);
     font-size: 2rem;
     font-weight: 500;
     letter-spacing: 3px;
@@ -176,10 +175,10 @@ a:hover::after {
 }
 
 .link-git::before {
-    
+
     content:url(./assets/images/github.png);
     padding-right: 10px;
-  
+
 
 }
 
@@ -188,7 +187,7 @@ a:hover::after {
     position: relative;
     top:-50px;
     display: flex;
-    justify-content: flex-end;    
+    justify-content: flex-end;
     gap: 20px;
 
 }
@@ -285,6 +284,5 @@ pre {
 .footer-list a {
     display: flex;
     align-items: center;
-   
 }
 
