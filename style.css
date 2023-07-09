@@ -296,6 +296,10 @@ a:hover::after {
     color: var(--lightgray);
 }
 
+.education-list-item span {
+ font-size: 1.5rem;
+}
+
 ul > ul li {
     margin: 5px 20px;
 }
