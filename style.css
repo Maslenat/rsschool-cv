@@ -338,7 +338,7 @@ pre {
     box-shadow: 0 0 5px var(--yellow);
 }
 
-.footer-list {
+.footer {
     margin-top: 5px;
     padding-top: 5px;
     display: flex;
@@ -348,8 +348,8 @@ pre {
     color: var(--lightgray);
 }
 
-.footer-list a {
-    display: flex;
-    align-items: center;
+.footer a,
+.footer p {
+  font-size: 1.8rem;
+  font-weight: 500;
 }
-
