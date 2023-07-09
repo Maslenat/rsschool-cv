@@ -19,6 +19,7 @@ img {
 }
 a {
     text-decoration: none;
+    color: var(--darkgray);
    
 }
 li{
@@ -99,7 +100,7 @@ li{
     font-size: 2rem;
     font-weight: 500;
 }
-.list-nav a::after{
+a::after{
     content: "";
     display: block;
     height: 5px;
@@ -108,7 +109,7 @@ li{
     background-color: transparent;
     opacity: 0.2;
 }
-.list-nav a:hover::after{
+a:hover::after{
     content: "";
     display: block;
     height: 5px;
@@ -146,27 +147,26 @@ li{
 
 }
 
-.list-contact dd, .list-contact a {
+.list-contact li, .list-contact a {
     color: var(--darkgray);
     font-size: 1.5rem;
     font-weight: 500;
    
 
 }
-.list-contact a{
+.list-contact li {
     display: flex;
     align-items: center;
     width: fit-content;
-    padding: 3px 3px 3px 0;
+    padding: 3px 3px 0 0;
+    border-bottom: 3px dotted var(--lightgray);
 }
-.list-contact a {
-        border-bottom: 3px dotted var(--lightgray);
- 
-}
+
 .link-git::before{
+    
     content:url(./github.png);
     padding-right: 10px;
-    height: 24px;
+  
 
 }
 .section-myself{
@@ -210,6 +210,9 @@ li{
 .education-list-item a{
     color: var(--lightgray);
 }
+ul>ul li {
+    margin: 5px 20px;
+}
 .code-inner {
     display: flex;
     gap:20px;
@@ -218,12 +221,32 @@ li{
 .code-text {
     font-size: 1.8rem;
     border: 2px dotted var(--yellow);
-    max-width: 50%;
+  
 
 }
 pre {
     background-color: var(--primary);
+   
+}
+.project {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+
+}
+.project li {
+    font-size: 1.8rem;
+    border-bottom: 2px dotted var(--lightgray);
     width: fit-content;
+}
+.project a {
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+.project a:hover {
+    box-shadow: 0 0 5px var(--yellow);
 }
 .footer-list{
     margin-top: 5px;
