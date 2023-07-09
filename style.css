@@ -194,6 +194,11 @@ a:hover::after {
     writing-mode: vertical-lr;
 }
 
+.contact {
+  position: relative;
+  z-index: 100;
+}
+
 .list-contact li,
 .list-contact a {
     color: var(--darkgray);
@@ -201,29 +206,56 @@ a:hover::after {
     font-weight: 500;
 }
 
+.list-contact a {
+  position: relative;
+}
+
 .list-contact li {
     display: flex;
-    align-items: center;
     width: fit-content;
-    padding: 3px 3px 0 0;
+    padding: 3px 3px 3px 30px;
     border-bottom: 3px dotted var(--lightgray);
 }
 
 .link-git::before {
-
-    content:url(./assets/images/github.png);
-    padding-right: 10px;
-
-
+    content: url(./assets/images/github.svg);
+    position: absolute;
+    left: -30px;
+    top: -3px;
 }
 
-.section-myself {
-    text-align: end;
+.link-phone::before {
+  content: url(./assets/images/phone.svg);
+  position: absolute;
+  left: -30px;
+}
+
+.link-discord::before {
+  content: url(./assets/images/discord.svg);
+  position: absolute;
+  left: -30px;
+}
+
+.link-mail::before {
+  content: url(./assets/images/gmail.svg);
+  position: absolute;
+  left: -30px;
+}
+
+.link-telegramm::before {
+  content: url(./assets/images/telegramm.svg);
+  position: absolute;
+  left: -30px;
+}
+
+.myself {
     position: relative;
     top:-50px;
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+    text-align: end;
+    z-index: 10;
 
 }
 
