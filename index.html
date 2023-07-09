@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Masllenikova Natalia</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/icon-16x16.png">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="full-name">
+                <div class="foto-decoration">
+                    <img class="foto" src="./assets/images/foto.jpg" width="200" height="280" alt="photo">
+                </div>
+                <div>
+                    <h1 class="title">Natalia<br>Maslennikova</h1>
+                    <p class="subtitle">junior frontend developer</p>
+                </div>
+            </div>
+            <nav class="navigation">
+                <ul class="list-nav">
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#myself">About&nbsp;me</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#project">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section id="contact" class="contact">
+                <h2 class="horizont-title">Contact</h2>
+                <ul class="list-contact">
+                    <li><a class="link-git" href="https://github.com/Maslenat">GitHub: maslenat</a></li>
+                    <li><a class="link-discord" href="https://discord.com/">Discord: Natali Maslennikova(@maslenat)</a></li>
+                    <li><a class="link-mail" href="mailto:maslenat001@gmail.com">E-mail: maslenat001@gmail.com</a></li>
+                    <li><a class="link-telegramm" href="https://telegram.me/Maslenat">Telegramm: @Maslenat</a></li>
+                </ul>
+            </section>
+            <section id="myself" class="myself">
+                <h2 class="vertical-title">about myself </h2>
+                <p class="myself-text">I choose the direction of web-development because
+                  I like to constantly learn and see the result of my work visually. It includes many areas: design, programming, SEO.My
+                  goal is to become a good developer. I believe that my discipline and interest in learning will help me reach my goal.
+                </p>
+            </section>
+            <section id="skill" class="skill">
+                <h2 class="horizont-title">Skills</h2>
+                <ul>
+                    <li class="skill-list-item">HTML</li>
+                    <li class="skill-list-item">CSS/SASS</li>
+                    <li class="skill-list-item">Git</li>
+                    <li class="skill-list-item">VSCode</li>
+                </ul>
+            </section>
+            <section id="education" class="education">
+                <h2 class="horizont-title">Education</h2>
+                <ul>
+                    <li class="education-list-item">FEFU <span>(mathematics and computer science)</span>
+                    </li>
+                    <li class="education-list-item">
+                      <a href="https://itgirlschool.com/">ITGIRLSCHOOL course</a>
+                    </li>
+                    <li class="education-list-item">English-A1</li>
+                </ul>
+            </section>
+            <section id="code" class="code">
+                <div class="code-inner">
+                    <h2 class="vertical-title">Code </h2>
+                    <p class="code-text">KATA Codewars: Complete the square sum function so that it squares each number passed into it and
+                      then sums the results together.</p>
+                    <pre>
+
+function squareSum( numbers ) {
+return numbers.map( el=> el * el ).reduce(( x, y )=> x + y,0)
+}
+                    </pre>
+                </div>
+        </section>
+            <section id="project" class="project">
+                <ul>
+                    <li>Furniture Shop (education project) <a href="https://maslenat.github.io/FunitureShop/">Deploy</a></li>
+                    <li>Babysitter site (education project) <a href="https://maslenat.github.io/MyNanny-project/">Deploy</a></li>
+                </ul>
+                <h2 class="vertical-title">Projects</h2>
+            </section>
+        </main>
+        <footer class="footer">
+          <a href="https://github.com/Maslenat">maslenat</a>
+          <p>2023</p>
+          <a href="https://rs.school/js/">
+            <img src="./assets/images/rs_school_logo.svg" alt="rs_school_logo" width="150" height="80">
+          </a>
+        </footer>
+    </div>
+</body>
+</html>
