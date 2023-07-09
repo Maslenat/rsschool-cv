@@ -164,7 +164,7 @@ a:hover::after{
 
 .link-git::before{
     
-    content:url(./github.png);
+    content:url(./assets/images/github.png);
     padding-right: 10px;
   
 
