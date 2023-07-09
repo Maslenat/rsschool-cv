@@ -337,6 +337,10 @@ pre {
 .project a:hover {
     box-shadow: 0 0 5px var(--yellow);
 }
+.project li:nth-child(2) {
+  margin-top: 10px;
+  margin-right: 20px;
+}
 
 .footer {
     margin-top: 5px;
